@@ -1,0 +1,42 @@
+p{
+    color:indigo;    /*rgb(0, 0, 0) #000*/
+}
+/* Questa è una classe */
+.corsivo{   /*Le classi sono precedute da un '.' (in HTML si fa class="corsivo)*/
+    font-style: italic;
+}
+.sottolineato{
+    text-decoration: underline;
+}
+.evidenziato{
+    background-color: aliceblue;
+}
+div
+{
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 100px;
+    background-color: #ff9;
+}
+#div1
+{
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+}
+#div2
+{
+    width: 200px;
+    padding: 20px; /*padding si aggiunge alla larghezza e fa una spaziatura su tutti e 4 i lati del paragrafo*/
+    overflow: auto;
+}
+div:nth-of-type(3)
+{
+    background-image: url("Koala.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

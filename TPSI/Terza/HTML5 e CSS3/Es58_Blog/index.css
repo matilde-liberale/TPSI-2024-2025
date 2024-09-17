@@ -1,0 +1,294 @@
+ @font-face {
+	font-family: 'Sansation';
+	src: local('Sansation'),  /* nome del font */
+	     url('font/Sansation_Regular.eot'),
+	 	 url('font/Sansation_Regular.woff') format('woff'), 
+		 url('font/Sansation_Regular.ttf') format('truetype'), 
+		 url('font/Sansation_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sansation';
+	src: local('Sansation'),   /* nome del font */
+	     url('font/Sansation_Bold.eot'),
+		 url('font/Sansation_Bold.woff') format('woff'), 
+		 url('font/Sansation_Bold.ttf') format('truetype'), 
+		 url('font/Sansation_Bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+:root{
+	--gialloCane: #fc0;
+}
+
+
+/* BODY */
+body {  
+	width:960px; 
+	margin:0 auto;
+	font-family: Sansation, Arial, Helvetica, sans-serif;
+	font-size:10.5pt; 
+	color:#fff; 	
+	text-align:left;
+	background-image:url(img/sky.jpg);
+	background-repeat: no-repeat;
+	background-repeat:center ;
+	background-attachment:fixed;
+	background-size: cover;	
+	line-height:150%; /* ripsetto al default */
+}
+
+body>div{
+	display: flex;
+	align-items: flex-start;
+}
+
+/* ************ Tag Generali ***************************** */
+
+h1, h2, h3, h4, h5, h6 { 
+    font-weight:bold;  /* il bold è tolto dal reset */	
+	line-height:120%; 
+}
+time { 
+	color: #0099FF; 
+	font-size:12px; 	 
+}
+
+a { 
+   text-decoration:none;
+   color:#ffCC00;
+}
+a:visited {color:#ffCC00;}
+a:hover  {color:#ffffff;}
+a:focus  {color:#ff0000;}   /* tasto tab */
+a:active {color:#bbbbbb;}   /* cliccato  */
+
+dl {float:left; } 
+dt {float:left; margin-right:10px; } 
+dd {float:left; margin-right:20px; }
+
+
+/* *********************** header  *************************** */
+
+#hgroup h1{
+	color: blue;
+	font-size: 30pt;
+}
+
+#hgroup h2{
+	color: black;
+	font-weight: normal;
+	font-size: 14pt;
+}
+
+header>nav{
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+	padding: 15px;
+	margin: 15px 0;
+}
+
+header>nav h1{
+	font-weight: normal;
+	display: inline-block;
+}
+
+header>nav ul{
+	float: right;
+	margin-top: 7px;
+}
+
+header>nav ul li{
+	display: inline-block;
+	background-color: #114;
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin: 0 5px;
+	box-shadow: 0 2px 4px black;
+}
+
+header>nav ul li:hover{      
+	color:var(--gialloCane);     
+	background-color:#003;     
+	transform: scale(1.2);
+	transition: 1.5s; 
+}
+
+header>nav ul li a{
+	color: white;
+	font-weight: bold;
+}
+
+/* *************** section ULTIMO POST  **************** */
+
+div>section, div>aside, div + footer{
+	display: inline-block;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0 10px;
+}
+
+div>section:first-of-type{
+	width: 45%;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+div>section:first-of-type>h1{
+	color: #ccc;
+	font-size: 17pt;
+	margin-bottom: 10px;
+}
+
+div>section:first-of-type header h1{
+	font-size: 13pt;
+	margin-bottom: 20px;
+}
+
+div>section:first-of-type dl{
+	margin-bottom: 20px;
+}
+
+/* *** Commenti all'ultimo post *** */
+
+section section>h1{
+	color: #ccc;
+	font-size: 17pt;
+	margin-bottom: 10px;
+}
+
+address{
+	display: flex;
+	justify-content: flex-end;
+}
+
+section section article h1{
+	font-size: 13pt;
+	margin-bottom: 10px;
+}
+
+section section section{
+	margin-top: 20px;
+}
+
+section section section legend{
+	color: yellow;
+	margin: 10px 0;
+	font-size: 12pt;	
+}
+
+section section section label{
+	display: block;
+}
+
+section section section label input{
+	display: block;
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: -1px 2px 4px;
+	margin-bottom: 10px;	
+}
+
+section section section label textarea{
+	display: block;
+	height: 100px;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: -1px 2px 4px;
+	margin-bottom: 10px;	
+}
+
+input[type="reset"], input[type="submit"]{
+	display: inline-block;
+	color: white;
+	background-color: #224;
+	border-radius: 5px;
+	padding: 5px 15px;
+	margin: 0 5px;
+	box-shadow: 0 2px 4px black;
+}
+
+/* ****************** POST MENO RECENTI  ***************** */
+
+div>section:nth-of-type(2){
+	width: 35%;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+div>section:nth-of-type(2)>h1{
+	color: #ccc;
+	font-size: 17pt;
+	margin-bottom: 10px;
+}
+
+div>section:nth-of-type(2) header h1{
+	font-size: 13pt;
+	margin-bottom: 20px;
+}
+
+/* sidebar */
+
+aside{
+	width: 20%;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+div>aside>h1{
+	color: #ccc;
+	font-size: 17pt;
+	margin-bottom: 30px;
+}
+
+div>aside>section>h1{
+	font-size: 13pt;
+	margin: 10px 0;
+}
+
+div>aside input{
+	display: block;
+	height: 30px;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: -1px 2px 4px;
+	margin-bottom: 10px;
+}
+
+div>aside input[type="submit"]{
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+div>aside input[type=range]{
+	accent-color: coral;
+}
+
+div>aside ul{
+	margin-left: 15px;
+}
+
+div>aside li a{
+	color: var(--gialloCane);
+	margin-left: 10px;
+}
+
+/*  */
+
+div + footer{
+	margin: 20px 10px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 10px;
+	font-size: 9pt;
+}
+
+div + footer small{
+	font-size: 8pt;
+}

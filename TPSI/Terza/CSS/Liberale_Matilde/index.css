@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+html, body, #wrapper {
+    height: 100%;
+}
+
+body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 10pt;
+    background-color: #eaeaea;
+    background-image: url(img/bg.gif);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+#wrapper {
+    width: 740px;
+    height: 100%; 
+    margin: 10px auto;
+    padding: 0 10;
+    background-color: #aaffff;
+}
+
+#header{
+    height: 290px;
+    padding: 10px;
+    margin: 10px 10px;
+    background-image: url("./img/serviziInformatici.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+#header>h1, #header>h3 {
+    color: #ff0;
+    text-align: left;
+}
+
+#header>h3{
+    padding-left: 50px;
+    font-weight: 13pt;
+}
+
+#header>h1{
+    padding-left: 50px;
+    font-weight: 60pt;
+}
+
+#mainBox{
+    width: 520px;
+    height: 250px;
+    padding: 12px;
+    overflow: auto;
+}
+
+#mainBox>h3 {
+   padding: 10px 30px 0px; 
+}
+
+#mainBox>div>p{
+    text-align: left;
+    width: 100px;
+    height: 68px;
+    margin: 12px 5px 12px 12px;
+}
+
+#mainBox>div{
+    float: left;
+    width: 100px;
+    height: 68px;
+    margin: 12px 5px 12px 12px;
+    position: relative;
+    background-image: url("./img/security.jpg");
+    display: inline-block;
+
+}
+
+#mainBox>div>p{
+    width: 100px;
+    height: 68px;
+    text-align: center;
+    font-size: 8pt;
+    color: #eee;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+#mainBox>div:hover >p{
+    opacity: 1;
+}
+
+#mainBox>div>p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: 1;
+}
+
+#aside{
+    float: right;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#aside>li{
+    width: 140px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align:middle;
+    margin: 2px;
+    color: #333;
+    border: 1px solid #888;
+    border-left: 5px solid #888;
+    list-style: none;
+    background-color: #aaffaa;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#aside>li:hover{
+    text-decoration: underline;
+    color: #aaffaa;
+    background-color: #333;
+}
+
+#footer{
+    margin: 20px 0px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #aaffff;
+    text-align: center;
+    display: inline-block;
+}
+
+#footer>div{
+    display: inline-block;
+}
+
+#footer>div:nth-of-type(1)>div>span{
+    text-align: right;
+    display: inline-block;
+}

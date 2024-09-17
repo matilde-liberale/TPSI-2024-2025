@@ -1,0 +1,10 @@
+HO 9 VALORI POSSIBILI
+100	thin	
+200	extra light 
+300	light
+400	regular (normale)
+500	medium
+600	semi bold
+700	bold (uguale quindi a scrivere solo bold)
+800	extra bold 
+900	black

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ese3</title>
+	<link rel="stylesheet" href="index.css" />
+    <script type="application/javascript" src="index.js"></script>
+</head>
+
+<body>
+	<h1> Esercizio 3 </h1>
+	
+	<div class="wrapper">
+				
+		<div id="container1">
+			<h1> seleziona tutte le immagini che contengono un semaforo</h1>	
+			<div onclick="seleziona(event)" >  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<div onclick="seleziona(event)">  </div>
+			<button id="btnVerifica" onclick="verifica()"> Verifica </button>  		
+		</div>
+		
+		<div id="container2">
+			Lunghezza password tra 8 e 20: <input id="lunghezzaPassword" type="text" min="10" max="20" maxlength="2" oninput="abilitaPulsante(event)" onkeydown= "return controllaInput(event)">
+			<button id="btnGenera" disabled onclick="genera()"> Genera Nuova Password </button> 
+			<span>  </span>
+		</div>
+	</div>
+</body>
+</html>

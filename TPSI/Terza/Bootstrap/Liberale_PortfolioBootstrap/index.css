@@ -1,0 +1,173 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: #f3ebe4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px;
+}
+
+.nav-link, .navbar-brand {
+    color: #000;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header {
+    background-image: url('Img/Sondo1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 15px auto;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(0, 0, 0, 0.01);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+
+.description .card {
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.3);
+    top: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.description .card-img-top {
+    width: 80%;
+}
+
+.description h1 {
+    color: rgba(211, 135, 135, 0.878);
+}
+
+.description p {
+    padding: 20px auto;
+    color: #000;
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+.about {
+    /* padding: 35px auto; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.experience {
+    margin-top: 50px;
+    flex: 1; 
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.text-black-15 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.fotoSport {
+    width: 200px;
+    height: 170px;
+}
+
+.footer {
+    padding: 60px 0 30px;
+    background: #f3ebe4;
+    text-align: center;
+}
+
+.footer .feature-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-bottom: 0;
+    font-size: 16pt;
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+        height: auto;
+    }
+
+    .headerSport {
+        height: 150px;
+    }
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+}

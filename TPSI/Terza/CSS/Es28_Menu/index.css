@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    background-color: #ccc;
+    width: 160px;
+    height: 45px;
+    display: block; /*a è inline quindi se non metto questo non mi prende width e height, 
+    block prende tutta la riga e vanno tutti a capo, in questo caso non cambia graficamente 
+    mentre inline-block è un tag inline (non va a capo) che riconosce width e height*/
+    border: 1px solid #999;
+    margin: -2px;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    font-weight: bold; /*bold è 700, se il font ha tutti i valori bolder è 900, altrimenti bold=bolder*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #66a;  
+    border-left-width: 5px;   
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: #66a;
+    color: #ccc;
+    border-color: #66a;
+}
+
+ul{
+    list-style: none;
+    margin: 20px auto;
+}
+
+ul.verticale{
+    width: 170px;
+}
+
+ul.orizzontale{
+    height: 52px;
+    width: 695px;
+}
+
+ul.orizzontale>li {
+    display: inline-block;
+}
+
+
+
+
+
+

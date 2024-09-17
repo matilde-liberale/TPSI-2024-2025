@@ -1,0 +1,86 @@
+<!DOCTYPE html> <!--documento html15-->
+<html lang="it">
+
+<head> <!-- La sezione head contiene le impostazioni della pagina-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eserizio num</title>
+</head>
+
+<body> <!-- La sezione body -->
+    <h1 align="center">Invia Commenti</h1>
+
+    <table width="80%" align="center" border="1">
+        <tr>
+            <th rowspan="2">Roberto Benigni</th>
+            <th colspan="5" Height="30">Altri film</th>
+        </tr>
+        <tr>
+            <th Width="33%" Height="30">Titolo</th>
+            <th Width="40%" Height="30">Descrizione</th>
+        </tr>
+        <tr>
+            <td Width="7%">1988</td>
+            <td Width="33%"><i><b>Il piccolo diavolo</b></i></td>
+            <td Width="40%">Padre Maurizio viene chiamato a compiere un esorcismo per
+                liberare una donna dall'essere che la stava possedendo.</td>
+        </tr>
+        <tr>
+            <td Width="7%">1994</td>
+            <td Width="33%"><i><b>Il mostro</b></i></td>
+            <td Width="40%">Loris è un giovane disoccupato che si guadagna da vivere con lavori saltuari.
+                Una serie di equivoci porta la polizia a sospettare che Loris
+                sia il maniaco sessuale e serial killer di donne che terrorizza il quartiere.
+            </td>
+        </tr>
+        <tr>
+            <td Width="7%">2005</td>
+            <td Width="33%"><i><b>La tigre e la neve</b></i></td>
+            <td Width="40%">Attilio de Giovanni, svagato ed estroso professore di poesia, 
+                divorziato e padre di due preadolescenti, è innamorato perdutamente di Vittoria, 
+                una scrittrice che gli appare in sogno tutte le notti.
+            </td>
+        </tr>
+    </table>
+
+        <p>
+            <label for="txtFilmPrefe">
+                Quale fra i film ti è piaciuto di più?
+            </label>
+            <input type="text" id="txtFilmPrefe" name="txtFilmPrefe">
+        </p>
+        <p>
+            Lo hai visto al cinema?
+            <input type="radio" name="optSiNo" id="optSi" value="Si" required>
+            <label for="optSi">Si</label>
+            <input type="radio" name="optSiNo" id="optNo" value="No">
+            <label for="optNo">No</label>
+        </p>
+        <p>
+            <font size="3">Lo hai visto più volte? </font>
+            <input type="checkbox" name="chkScelta" id="chkSi" value="Si">
+            <label for="chkSi">Si</label>
+        </p>
+
+        <p>
+            <label for="lstVoto"> <font size="3">Assegna un voto da 1 a 10: </font></label>
+            <select name="lstVoto" id="lstVoto"> 
+                <option value=""></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <input type="button" value="Invia"> 
+            <a href="./index.html"><img src="./ritorna.jpg" alt="ritorna"></a>
+        </p>
+</body>
+
+</html>

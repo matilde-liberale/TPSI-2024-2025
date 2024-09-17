@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+#wrapper{
+    width: 760px;
+    height: auto;
+    margin: 10px auto;
+    text-align: center;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    border: 7px double #ff8080;
+}
+
+#titolo{
+    height: 100px;
+    font-size: 24px;
+    margin: 0 auto;
+    line-height: 100px;
+    background-color: #7bb5db;
+    color: #ff9f00;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#immagine{
+    background-image: url("./Penguins.jpg");
+    height: 569px;
+    
+    
+}
+
+#immagine h1, #immagine h2{
+    width: 350px;
+    padding-top: 12px;
+    text-align: right;
+}
+
+#immagine>h1{
+    font-size: 18pt;
+    color: #ff9f00;
+}
+
+#immagine>h2{
+    font-size: 16pt;
+    color: #454545;
+}
+
+#menu>p{
+    padding-top: 10px;
+    padding-left: 100px;
+    text-align: left;
+}
+
+#voci{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 12pt;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+#voci>a{
+    padding: 9px 12px 12px 12px;
+    color: #ff9f00;
+    background-color: #353535;
+    border: 1px solid #a7a7a7;
+    cursor: pointer;
+    display: block;
+}

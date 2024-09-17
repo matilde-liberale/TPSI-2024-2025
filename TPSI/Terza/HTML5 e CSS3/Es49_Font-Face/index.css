@@ -1,0 +1,50 @@
+
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+
+html, body, #wrapper{
+	height:100%
+}
+ 
+@font-face {
+	font-family: Amatic;   /* nome da assegnare al font*/
+	src: local(amatic),    /* nome del font eventualmente already installato sulla macchina */
+		 url(font/amatic/AmaticSC-Regular.ttf); 
+	font-weight: normal;
+	font-style: normal;
+}
+
+div {
+	font-size: 14pt;
+	max-width: 900px;
+	margin: 15px auto;
+}
+
+div:nth-of-type(2){
+	font-family: Amatic;
+}
+
+div:nth-of-type(3){
+	font-family: Amatic;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: AmaticBold;   /* nome da assegnare al font*/
+	src: local(amatic),    /* nome del font eventualmente already installato sulla macchina */
+		 url(font/amatic/Amatic-Bold.ttf); 
+	font-weight: bold; /*quando il testo ha font-weidth bold mi mette in automatico questo, invece con normal mi mette l'altro normale*/
+	font-style: normal;
+}
+
+div:nth-of-type(4){
+	font-family: AmaticBold;
+	font-weight: bold;
+}

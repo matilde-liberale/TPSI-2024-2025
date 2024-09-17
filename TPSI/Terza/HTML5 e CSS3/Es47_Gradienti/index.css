@@ -1,0 +1,44 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:30px;
+}
+
+#wrapper{
+	width: 840px;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+
+#wrapper div{
+	width: 300px;
+	height: 200px;
+	border: 1px solid #ccc;
+	margin: 20px;
+}
+
+#wrapper div:nth-of-type(1){
+	background-image: linear-gradient(to bottom, #00f 5%, #dcf 60%, #fff 100%);
+}
+
+#wrapper div:nth-of-type(2){
+	background-image: linear-gradient(to bottom right, #fff 0%, #df15aa 35%, #aacfef 100%);
+}
+
+#wrapper div:nth-of-type(3){
+	width: 800px;
+	/* se non metto la percentuale suddivide i colori equamente fra loro */
+	background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+#wrapper div:nth-of-type(4){
+	background-image: radial-gradient(circle at 50% 25%, #ffa 8%, #9ef 45%, #9bf 100%);
+}
+
+#wrapper div:nth-of-type(5){
+	background-image: radial-gradient(circle at 50% 25%, #fff 5%, #00f 50%, #0ae 100%);
+}

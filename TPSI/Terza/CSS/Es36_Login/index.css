@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-color: #689;
+}
+
+#wrapper {
+    width: 350px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+#wrapper input, #wrapper>div>div:nth-of-type(2) {
+    /*border: none;*/
+    width: 80%;
+    padding: 4px;
+    outline: none;
+}
+
+#wrapper>div{
+    width: 80%;
+    margin: 15px auto;
+    padding: 4px;
+    border: 1px solid #68f;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#wrapper>div>.icona{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(./icons.png);
+}
+
+#wrapper>div:nth-of-type(1) div{
+    background-position-x: -144px;
+    background-position-y: -96px;
+}
+
+#wrapper>div:nth-of-type(2) div{
+    background-position-x: -192px;
+    background-position-y: -96px;
+}
+
+
+#wrapper>div:nth-of-type(3) div:nth-of-type(1){
+    background-position-x: -64px;
+    background-position-y: -144px;
+}
+
+#wrapper>div>div{
+    display: inline-block;
+}
+
+#wrapper>div:nth-of-type(3)>div:nth-of-type(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#wrapper>div:nth-of-type(3){
+    background-color: #689;
+    color: #fff;
+}

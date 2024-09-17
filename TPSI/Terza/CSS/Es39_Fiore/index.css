@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#body, #html, #wrapper {
+    height: 100%;
+}
+
+#body {
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-weight: 10pt;
+}

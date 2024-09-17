@@ -1,0 +1,69 @@
+h1 
+{
+    text-align: center;
+}
+p:nth-of-type(1)
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 14pt;
+    font-weight: bold; /*bold = 700  bold e normal sempre disponibili ma la maggior parte non ci sono sempre */
+    font-style: italic;
+    color: blue;
+    line-height: 25px; /*1 pt sono 3/4 di pixel (12 PT 16 PX) questa è l'interlinea*/
+    text-decoration:none;
+    letter-spacing: 3px;
+    word-spacing: 10px; /*Spaziatura aggiuntiva tra le parole*/
+    /*border: 1px solid black;*/
+    border-style: dashed;
+    border-color: #77f;
+    border-left-width: 6px ;
+    border-left-color:aqua;
+    background-color: #FFA;
+    background-image: url('./the_wall.jpg');
+    width: 900px;
+    height: 200px;
+    overflow: auto;
+    /*margin-left: 30px;  esprimo ogni lato singolarmente*/
+    /*margin: 40px;  esprimo margine uguale da tutti i lati*/
+    /*margin: 10px 20px 30px 40px; li esprimo uno per uno sulla stessa riga in senso ORARIO*/
+    /*margin: 50px 20px;  il primo valore indica superiore e einferiore il secondo destra e sinistra*/
+    margin: 40px auto;  /*Il secondo valore me lo mette al centro in base alla grandezza della finestra*/
+    padding: 20px;
+    padding-left: 40px;
+}
+p:nth-of-type(1) span:hover {
+    color: red;
+    cursor: pointer;
+}
+a:link
+{
+    color: purple;
+}
+a:visited {
+    color: gray;
+}
+a:active{
+    color: red;
+}
+a:hover {
+    color:blue;
+}
+a:nth-of-type(1):hover {
+    color: green;
+}
+a:nth-of-type(1):visited {
+    color: cadetblue;
+}
+input:hover {
+    background-color: cyan;
+}
+input:focus {
+    background-color: aquamarine;
+}
+input:valid {
+    background-color: green;
+}
+input:invalid {
+    background-color: red;
+}
+

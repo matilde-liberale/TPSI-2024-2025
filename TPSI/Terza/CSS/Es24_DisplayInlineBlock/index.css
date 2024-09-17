@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+#wrapper{
+    width: 350px;
+    margin: 20px auto;
+    border: 1px solid #CCC;
+    padding: 15px;
+    border-radius: 10px; /*proprietà css3 che serve per narrotondare gli spoigoli di un bordo 
+    e 10 sarebbe il raggio di curvatura dello spigolo*/
+}
+
+#wrapper label, #wrapper input{
+    display: inline-block;
+    width: 150px;
+    margin: 5px;
+}
+
+#wrapper label{
+    height: 30px;
+    text-align: right; 
+}
+
+#wrapper input{
+    height: 20px; 
+}

@@ -1,0 +1,255 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 13.5pt;
+    font-weight: none;
+    color: #505050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body,
+#wrapper {
+    height: 100%;
+}
+
+
+body {
+    font-family: verdana, arial, sans-serif;
+    font-size: 9pt;
+    background-image: url(img/bg.gif);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-color: rgb(234, 234, 234);
+}
+
+#wrapper {
+    width: 772px;
+    padding: 1px 4px;
+    margin: 0 auto;
+}
+
+
+/**************************************************************/
+/*Frame alto*/
+#topFrame {
+    height: 275px;
+    background-image: url(img/front.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+    color: #505050;
+}
+
+#topFrame>h1 {
+    font-size: 20pt;
+    margin-left: +10px;
+}
+
+#topFrame>P {
+    font-size: 11pt;
+    font-weight: bold;
+    margin-left: +10px;
+}
+
+/**************************************************************/
+#leftFrame {
+    width: 143px;
+    float: left;
+    padding-left: 5px;
+}
+
+/**************************************************************/
+/*Frame Centrale*/
+#mainFrame {
+    margin: 10px 10px 10px 160px;
+    line-height: 19px;
+    width: 476px;
+}
+
+/**************************************************************/
+/* Frame sinistro */
+.menu1>li {
+    display: inline-block;
+    width: 135px;
+    height: 20px;
+    padding: 6px 0px 0px 10px;
+    margin-bottom: 5px;
+    border: 1px solid #beb5b5;
+    color: #505050;
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+    border-left: 4px solid rgb(165, 165, 162);
+}
+
+.menu2>li {
+    display: inline-block;
+    width: 122px;
+    height: 16px;
+    margin-left: 15px;
+    padding: 4px 0px 0px 8px;
+    border: 1px solid #beb5b5;
+    margin-bottom: 5px;
+    color: #505050;
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+    border-left: 4px solid rgb(165, 165, 162);
+}
+
+.menu2>li:hover {
+    background-color: rgb(218, 218, 218);
+    border-left: 4px solid #505050;
+}
+
+.menu1>li:hover {
+    background-color: rgb(218, 218, 218);
+    border-left: 4px solid #505050;
+}
+
+#FirstPage {
+    border-left: 4px solid #505050;
+    background-color: rgb(218, 218, 218);
+}
+
+/***************************************************************/
+/*Frame destro*/
+#rightFrame>h2 {
+    color: #505050;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rightFrame {
+    width: 130px;
+    padding-right: 6px;
+    float: right;
+    font-size: 8pt;
+}
+
+#rightFrame>p {
+    margin-bottom: 16px;
+    height: 14px;
+    
+}
+
+#rightFrame>ul {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    height: 14px;
+    list-style-type: none;
+}
+
+#rightFrame>h2#h2Search {
+    margin-top: 100px;
+}
+
+#rightFrame>ul {
+    margin-top: 0;
+}
+
+#rightFrame>ul>li>a {
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #505050;
+}
+
+#rightFrame>input {
+    margin-bottom: 20px;
+    width: 90%;
+
+}
+
+#rightFrame>input:focus {
+    outline: none;
+}
+
+#rightFrame>h2 {
+
+    font-size: 13pt;
+    font-weight: none;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+
+/**************************************************************/
+#searchBox {
+    margin-top: 60px;
+}
+#searchBox:focus {
+    outline: none;
+}
+
+.latestNews {
+    border: 1px solid #beb5b5;
+    margin-top: 15px;
+}
+
+.latestNews a {
+    display: block;
+    font-weight: bold;
+    color: #444;
+    text-align: right;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.latestNews {
+    width: 135px;
+    height: 130px;
+    background-color: #f0f0f0;
+    color: #505050;
+    border-left: 4px solid rgb(165, 165, 162);
+    padding-left: 10px;
+
+}
+
+/****************************************************************/
+/*Grassetto parti*/
+
+#readMore {
+    padding-top: 10px;
+}
+
+#Grassetto {
+    font-weight: bold;
+    color: #393939;
+}
+
+/**************************************************************/
+/*Parte Sotto*/
+#bottomFrame {
+    clear: both;
+    padding: 8px;
+    margin-top: 220px;
+    color: #808080;
+    text-align: center;
+}
+
+#otherVersion {
+    margin-top: 15px;
+}
+
+/***************************************************************/
+hr {
+    height: 2px;
+    border: 0;
+    background-color: rgb(230, 230, 230);
+    margin: 5px 0;
+}
+
+/***************************************************************/
+/*Immagine*/
+#img2 {
+    border: 5px solid #f1eeee;
+    margin: 20px 10px;
+}
+
+#img2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

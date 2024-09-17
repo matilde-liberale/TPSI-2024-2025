@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-image: url(./bg.gif);
+    background-position: center;
+    background-color: #eaeaea;
+    background-repeat: repeat-y;
+}
+
+#wrapper {
+    margin: 20px auto;
+    width: 684px;
+}
+

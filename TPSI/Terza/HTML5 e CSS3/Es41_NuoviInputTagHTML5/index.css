@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:30px;
+}
+
+form{
+	width:360px;
+	margin:15px auto;
+	padding:20px;
+	border:1px solid black;
+	border-radius:10px;
+}
+
+.user-box {
+	position: relative;
+}
+
+.user-box>input{
+	width: 100%;
+	padding: 10px 0; 
+	color: black;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #777;
+	outline: none;
+}
+
+.user-box>label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	color: black;
+}
+
+.user-box>input:focus label{
+
+}

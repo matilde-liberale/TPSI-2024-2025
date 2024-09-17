@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.div1{
+    width: 400px;
+    height: 100px; 
+    border: 1px solid #ccc;
+    margin: 20px auto; 
+    padding: 15px; 
+    border-radius: 10px;
+    /*overflow: hidden;
+    overflow: scroll;*/
+    overflow: auto;
+    overflow: nowrap;
+}

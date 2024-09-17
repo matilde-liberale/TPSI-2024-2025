@@ -1,0 +1,29 @@
+#paragrafo /*ha priorità più bassa, posso scriverlo anche per primo*/
+{
+    color: #f00;
+}
+
+.paragrafo{
+    color: #090;
+}
+
+
+div{
+    background-color: #777;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    margin: 15px auto;
+}
+
+div p{
+    background-color: #ff7;
+}
+
+p/*se uso important diventano tutti blu, di livello 4, continua a vincere div p perchè lui ha profondità maggiore*/
+{ 
+    color: #00f !important;
+    background-color: #aaa;
+}
+

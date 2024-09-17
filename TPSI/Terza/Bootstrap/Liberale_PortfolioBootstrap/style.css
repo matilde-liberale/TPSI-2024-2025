@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: #f3ebe4;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1000; 
+    height: 70px;
+}
+
+.nav-link, .navbar-brand {
+    color: #000;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header-experience {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 200px;
+    margin-top: 70px;
+}
+
+.experience {
+    margin-top: 20px;
+    margin-top: 30px;
+    height: 350px;
+}
+
+.feature-title {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.text-black-15 {
+    color: #000;
+    font-size: 1rem;
+}
+
+.footer {
+    padding: 60px 0 30px;
+    background: #f3ebe4;
+}
+
+.footer .feature-title {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer img {
+    max-width: 50px;
+    font-size: 18pt;
+}
+
+@media (max-width: 575.98px) {
+    .navbar {
+        height: auto;
+    }
+    
+    .header-experience {
+        height: 150px;
+    }
+
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1 {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        margin: 0;
+    }
+}

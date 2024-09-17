@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+h1 span{
+    font-style: italic;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 25px 25px 25px 25px;
+    width: fit-content;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: 20px auto;
+    border: 1px solid #BBB;
+    border-radius: 10px;
+    /*padding: 20px 20px 20px 0; */
+    padding: 20px;
+    padding-left: 10px;
+    background-color: #FFA;
+}
+
+#wrapper label{
+    text-align: right;
+}

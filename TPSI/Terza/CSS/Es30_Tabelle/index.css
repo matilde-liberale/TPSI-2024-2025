@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    margin: 20px auto; 
+    border: 1px solid #333;
+    background-color: #ddd;
+    border-spacing: 8px;
+}
+
+thead tr th{
+    width:130px;
+    background-color: #00f;
+    color: #eee;
+    padding: 10px;
+}
+tbody>tr{
+    background-color: #ffa;
+}
+
+tbody tr td{
+    padding: 10px;
+    text-align: center;
+}
+
+tbody>tr:nth-of-type(even){
+    background-color: #afa;
+}
+
+tbody tr td:hover{
+    background-color: aquamarine;
+    font-style: italic;
+    text-decoration: underline;
+    cursor: pointer;
+
+}

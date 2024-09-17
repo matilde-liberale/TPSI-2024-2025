@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+#wrapper{
+    width: 380px;
+    margin: 0 auto; 
+    padding: 40px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+#comandi{
+    float: left;
+    width: 130px;
+}
+
+#comandi>button {
+    width: 100px;
+    height: 40px;
+    background-color: #afa;
+    box-shadow: 3px 3px #888;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#stati{
+    float: right;
+    width: 180px;
+    background-color: #ffa;
+}
+
+.gemma #testo{
+    width: 110px; 
+    text-align: left;
+}
+
+.gemma #led {
+    width: 35px; 
+    height: 35px;
+    border-radius: 50%;
+    background-color: #aaa;
+    text-align: right;
+    box-shadow:3px 3px #111;
+}

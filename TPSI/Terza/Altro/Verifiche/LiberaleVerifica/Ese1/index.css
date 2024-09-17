@@ -1,0 +1,46 @@
+html{
+    height: 90%;
+    background-color: #999;
+}
+body{
+    height: 100%;
+    margin: 0px;
+    background-color: #999;
+}
+#wrapper{
+    width: 600px;
+    height: 100%;
+    padding: 25px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 0 20px 7px black;
+}
+
+/* ************************************************* */
+h1{
+	margin:20px 10px 35px 10px;
+	text-align:center;
+	font-size:26pt;
+	
+}
+
+
+select{
+	width:120px;
+	margin-bottom:35px;
+	font-family:"Courier New";
+}
+
+span:nth-of-type(1){
+	font-size:20pt;	 
+	display:none;
+}
+
+span:nth-of-type(2){
+	font-size:28pt;	 
+	font-weight:bold;
+	font-style:italic;
+	font-family:"Courier New";
+	display:none;
+}

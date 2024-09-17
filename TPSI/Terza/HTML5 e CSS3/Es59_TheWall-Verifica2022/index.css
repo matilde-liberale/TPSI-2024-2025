@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 11pt;
+    background-image: url(./img/sfondo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+#wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    overflow: hidden;
+}
+
+#wrapper h1{
+    font-size: 30pt;
+    color: blue;
+    text-align: center;
+    padding: 30px 0;
+    text-shadow: 3px 3px 4px #000099;
+}
+
+nav{
+    width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgba(40, 40, 40, 50%);
+    border-radius: 12px;
+    box-shadow: 3px 3px 4px black;
+    overflow: hidden;
+}
+
+nav h3{
+    color: #00dddd;
+    display: inline-block;
+}
+
+nav ul{
+    border: 1px solid blue;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-image: radial-gradient(circle at center, #333 0%, #eee 100%);
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 3px black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #00dddd;
+    font-weight: bold;
+}
+
+nav ul li:hover{
+    background-image: radial-gradient(circle at center, #00f 0%, #ddf 100%);
+    transform:  scale(1.06);
+    transition: 0.5s;
+}
+
+nav ul li:hover a{
+    text-decoration: underline;
+    color: yellow;
+    transition: 0.5s;
+}
+
+#mainSection{
+    float: left;
+    width: 615px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 3px 3px 4px #333;
+}
+
+#mainSection h2, #mainSection p{
+    margin: 10px;
+}
+
+#mainSection a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    margin: 4px;
+    opacity: 0.4;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px #888;
+}
+
+#mainSection a:hover{
+    opacity: 1;
+    transform: rotate(5deg);
+    transition: 0.5s;
+}
+
+aside{
+    float: right;
+    width: 310px;
+    margin: 12px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    box-shadow: 3px 3px 4px #333;
+}
+
+#progressBar{
+    height: 20px;
+    margin: 15px;
+    background-color: #00dd00;
+    animation: larghezza 3s linear infinite;
+}
+
+#progressBar p{
+    width: 240px;
+}
+
+@keyframes larghezza{
+    0%{
+        width: 1px;
+    }
+
+    100%{
+        width: 240px;
+    }
+}
+
+.input{
+    margin: 20px 0;
+}
+
+input[type=submit]{
+    float: right;
+    border: none;
+    font-weight: bold;
+    padding: 5px 15px;
+    margin: 10px; 
+    background-color: #bbb;
+    border-radius: 8px;
+    box-shadow: 3px 3px 2px #0ff, 6px 6px 2px black;
+    cursor: pointer;
+}
+
+.input:nth-of-type(6) div div{
+    width: 129px;
+    margin-top: 5px;
+}
+
+span:last-of-type{
+    float: right;
+}
+
+#socialNetworks{
+    list-style: none;
+}
+
+#socialNetworks li{
+    margin: 10px 5px;
+    width: 60px;
+    height: 55px;
+    float: left;
+    background-image: url(./img/socialNetworks.png);
+}
+
+#socialNetworks li:nth-of-type(1){
+    background-position: 0px 0px;
+}
+
+#socialNetworks li:nth-of-type(2){
+    background-position: -60px 0px;
+}
+
+#socialNetworks li:nth-of-type(3){
+    background-position: -120px 0px;
+}
+
+#socialNetworks li:hover{
+    transform: translateY(-57px);
+    transition: 0.5s;
+}

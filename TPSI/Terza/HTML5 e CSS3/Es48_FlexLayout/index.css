@@ -1,0 +1,55 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+
+html, body, #wrapper{
+	height:100%
+}
+
+/* ****************************************************************** */
+
+#wrapper{
+	width:800px;
+	height:800px;
+	margin: 20px auto;
+	border: 1px solid black;
+	background-color:#eee;	
+	overflow:hidden;
+	resize: both;
+}
+
+#wrapper div{
+   width: 100px;   
+   height: 100px; 
+   margin:6px;
+   font-size: 24pt;
+   font-weight: bold;
+   background-color:#cfc;
+   border:1px solid #aaa;
+}
+
+#wrapper div:nth-of-type(even){
+	height:150px;
+	flex-grow: 1;
+}
+
+#wrapper {
+	display: flex; 
+	/*flex-direction: column;   Fa ordinamento su colonne*/
+	/*flex-wrap: wrap;            gli elementi vanno a capo senza essere ridimensionati*/
+	/*justify-content: space-evenly;  lo spazio libero viene equamente suddiviso tra gli elementi*/
+	/*align-content: space-around;    definisce la spaziatura verticale tra gli elementi*/
+	/*align-content: stretch;         allunga elemeneto per tutto lo spazio possibile, ma solo se non ha height impostata*/
+	align-items: center;            /*definisce alllineamento verticale degli elementi*/
+}
+
+#wrapper div:nth-of-type(odd){
+	/*I valori indicano come deve essere suddiviso lo spazio libero fra i vari elementi*/
+	flex-grow: 3;
+}

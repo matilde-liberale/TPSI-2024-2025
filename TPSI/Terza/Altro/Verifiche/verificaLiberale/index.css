@@ -1,0 +1,39 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+h1{
+	margin:30px;
+	text-align:center;
+	font-size:30pt;
+}
+
+#wrapper{
+	width: 642px;
+	height:497px;
+	margin:10px auto;
+}
+
+#punti{
+	text-align:center;
+}		
+
+#punti input{
+	display:inline-block;
+	text-align:center;
+	width:120px;
+	height:40px;
+	font-weight:bold;
+	margin-top: 45px;
+	font-size:16pt;
+}
+
+.cella {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	margin:1px;
+	background-color:rgb(200, 200, 200);
+	background-size:cover;
+}	

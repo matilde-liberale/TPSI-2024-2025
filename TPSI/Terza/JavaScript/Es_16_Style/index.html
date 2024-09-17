@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>STYLES</title>
+        <link rel="stylesheet" href="index.css"/>
+        <script type="application/javascript" src="index.js"></script>
+    </head>
+    
+    <body>
+        <div id="wrapper">
+			<div id="titolo">Gestione delle Proprietà di stile (CSS)</div>
+            <br />
+            <input type="button" id="btnColore" value="Cambia colore" onclick="CambiaColore()" />
+            <br />
+			
+            <input type="text" id="txtSize" size="1" />
+            <input type="button" id="btnDimensione" value="Cambia dimensione" onclick="CambiaDimensione()" />
+            <br />
+			
+            <input type="button" id="btnSfondo" value="Cambia sfondo" onclick="CambiaSfondo()"/>
+            <input type="button" id="btnBordo" value="Cambia bordo" onclick="CambiaBordo()"/>
+            <br />
+			
+            <input type="button" class="image" value="img1" onclick="CaricaImg(event)"/>
+            <input type="button" class="image" value="img2" onclick="CaricaImg(event)"/>
+            <input type="button" class="image" value="img3" onclick="CaricaImg(event)"/>
+            <br />
+            <img id="imgBox" />
+            <input type="button" id="btnClear" value="Nascondi"
+								 disabled autocomplete="off" onclick="NascondiMostra()"/>
+        </div>
+    </body>
+</html>

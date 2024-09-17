@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:15px;
+}
+
+html, body, #wrapper{
+	/* height:100%  no !!  */
+}
+
+
+/* ******************************************************************* */
+body{
+	background-color:#ccc;
+}
+
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background-color:white;
+	padding:20px;
+	
+	column-width:350px;
+	column-gap:40px;
+	column-rule:1px solid #ddd;
+}
+
+#wrapper h2{
+	margin-top:15px;
+}
+
+#wrapper h1{
+	column-span:all;
+}

@@ -1,0 +1,84 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+
+html, body{
+	height:100%
+}
+
+
+
+div{
+   width:200px;
+   height:200px;
+   margin:50px; 
+   border:1px solid black;
+}
+
+
+/* ***************************** BOX 1 ********************* */
+
+.box1 {
+	transition: width 0.3s, font-size 0.5s, border 0.1s;
+}
+
+.box1:hover{
+	width: 400px;
+	font-size: 1.5em; /*50% in piu' di quello che aveva prima*/
+	border: 10px double purple;
+}
+
+/* ***************************** BOX 2 ********************* */
+
+.box2{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	background-color: #ddd;
+	transition: 400ms;
+}
+
+.box2:hover{
+	transform: scale(1.10);
+	background-color: #555;
+	color: #ddd;
+	cursor: pointer;	
+}
+
+/* ***************************** BOX 3 ********************* */
+
+.box3 {
+	transition: 1s;
+}
+
+.box3:hover{
+	color: blue;
+	transform: rotate(180deg);
+}
+
+/* ***************************** BOX 4 ********************* */
+
+.box4{
+	transition: 2s;
+}
+
+.box4:hover{
+	transform: rotate(180deg);
+}
+
+.box4 p{
+	height: inherit;
+	transition: 2s;
+}
+
+.box4:hover p{
+	transform: rotate(-180deg);
+}

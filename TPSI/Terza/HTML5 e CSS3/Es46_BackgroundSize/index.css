@@ -1,0 +1,49 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:30px;
+}
+
+html, body, #wrapper{
+	height:100%
+}
+
+div {
+	width: 360px;
+	height: 160px;
+	background-image: url("./img/Tulips.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+img{
+	width: 360px;
+}
+
+div, img{
+	margin: 25px;
+	padding: 15px 20px;
+	border: 1px solid black;
+	background-color: #ccc;
+}
+
+div:nth-of-type(2){
+	background-size: contain;
+}
+
+div:nth-of-type(3){
+	background-size: cover;
+}
+
+div:nth-of-type(4){
+	background-size: 80%;
+}
+
+div:nth-of-type(5){
+	background-size: cover;
+	box-sizing: border-box; /*fa si che padding non venga conteggiato nella grandezza totale dell'oggetto che generalmente e' data da padding + width + borde r*/
+}

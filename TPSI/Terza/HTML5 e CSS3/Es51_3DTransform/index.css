@@ -1,0 +1,71 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+h1{
+	text-align:center;
+	margin:25px;
+}
+
+html, body, #wrapper{
+	height:100%
+}
+
+
+div.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #555;
+    margin: 10px ;
+	vertical-align: middle;
+}
+
+div.box div{
+	/* Il valore di default di height è auto, cioè pari all'altezza del contenuto*/ 
+	height: inherit;
+    color: #FFF;	
+    background-color: #F00;
+}
+
+button{
+	height: 100px;
+	width: 50px;
+	background-color: #aaa;
+	margin: 10px 0;
+	vertical-align: middle;
+	border: none;
+}
+
+/* ******************************************* */
+
+.box{
+	perspective: 300px;
+	display: inline-block;
+}
+ 
+.box:nth-of-type(1) div:hover{
+	transform: rotateY(40deg);
+
+}
+
+.box:nth-of-type(2){
+	display: block;
+	margin-top: 50px;
+}
+
+
+.box:nth-of-type(2) div:hover{
+	transform: rotateY(20deg) translateZ(200px);
+	
+}
+
+button:nth-of-type(1):hover + div div{
+	transform: rotateY(30deg) ;
+
+}
+
+button:nth-of-type(2):hover + div div{
+	transform: rotateY(30deg) ;
+
+}

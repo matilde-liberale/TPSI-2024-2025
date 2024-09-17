@@ -1,0 +1,58 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body > h1{
+	margin:25px;
+	text-align:center;
+}
+
+
+/* ******************************************** */
+
+.wrapper{
+	width: 800px;
+	border: 1px solid black;
+	margin: 15px 60px;
+	padding:20px;
+	box-shadow: 2px 2px 3px  black;	
+	background-color: #AFA;
+}
+
+.wrapper h1{
+	margin-bottom:20px;
+}
+
+.lettera{
+	width:36px;
+	padding:0;
+	margin:2px;
+	font-size:20pt;
+	text-align:center;
+}
+
+.sposta{
+	width:32px;
+	padding:2px;
+	margin:2px;
+	box-sizing:content-box;
+	font-size:8pt;
+}
+
+.lettera:nth-of-type(8),
+.sposta:nth-of-type(16){
+	margin-left:24px;
+}
+
+/* ********************************************* */
+
+#btnVerifica{
+	font-size:14pt;		
+	font-weight:bold;
+	width:130px;
+	padding:5px;
+	display:block;
+	margin:20px 0px;
+}
+

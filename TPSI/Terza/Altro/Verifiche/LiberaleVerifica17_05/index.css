@@ -1,0 +1,27 @@
+body{
+    background-color: #AAA;
+}
+
+#wrapper{
+    width: 600px;
+    height: 800px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: white;
+}
+
+
+img, div#carta{
+    width: 71px;
+    height: 96px;
+    margin: 5px;
+}
+
+div#carta{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}

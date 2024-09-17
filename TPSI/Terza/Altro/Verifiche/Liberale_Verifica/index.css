@@ -1,0 +1,59 @@
+h1{
+    text-align:center;
+}
+
+
+#wrapper{
+	width:300px;
+	margin:40px auto;
+}
+
+.container{
+    width:200px;
+    height:200px;
+    border:0px solid red;
+	user-select:none;
+}
+
+
+.cella {
+    width: 42px;
+    height: 42px;
+    margin: 3px;
+    padding: 0;
+    border: 1px solid #AAA;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+button{
+	display: inline-block;
+	vertical-align:middle;
+    width:120px;
+	height: 48px;
+	margin:15px 15px;
+    background-color : yellow;
+    border-radius : 50%;
+	border: 1px solid #AAA;
+	
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.freccia{
+	display:inline-block;
+	vertical-align:middle;
+	width:40px;
+	height:40px;
+	margin:15px 0;
+	background-image:url(img/freccia.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
